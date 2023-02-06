@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+           
+        }
+        table,tr,td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+        input[type=submit]{
+            width: 100px;
+        }
+        
+    </style>
+</head>
+<body>
+    <form action="">
+        <table>
+            <tr >
+                <th colspan="2">Employee Details</th>
+            </tr>
+            <tr>
+        <td><label for="EmpName">Employee name</label></td>
+        <td><input type="text" name="" id="EmpName" required></td>
+    </tr>
+      <tr>
+        <td><label for="EmpAge">Age</label></td>
+        <td><input type="number" name="" id="EmpAge" required></td>
+    </tr>
+      <tr><td>
+        <label for="EmpGender">Gender</label></td>
+        <td><input type="radio" name="Gender"  id="EmpGender" value="male" required>Male
+        <input type="radio" name="Gender"  id="EmpGender" value="Female">Female
+        <input type="radio" name="Gender"  id="EmpGender" value="Transgender">Transgender </td>
+    </tr>
+    <tr>
+        <td><label for="EmpGender">Designation</label></td>
+        <td><input type="radio" name="Designation"  id="Designation" value="Trainee" required>Trainee 
+        <input type="radio" name="Designation"  id="Designation" value="Senior Developer">Senior Developer
+        <input type="radio" name="Designation"  id="Designation" value="Junior Developer">junior Developer </td> 
+    </tr>
+     <tr>    
+        <td><label for="EmpSalary">Salary</label></td>
+        <td><input type="number" name="" id="EmpSalary" required></td>
+    </tr>   
+    <tr>
+        <td><label for="location">Location</label></td>
+        <td><select name="Location" id="Location" required>
+            <option value="Gandhinagar">Gandhinagar</option>
+            <option value="Ahemedabad">Ahemedabad</option>
+            <option value="Mehasana">Mehasana</option>
+            <option value="Anand">Anand</option>
+        </select></td> 
+    </tr>  
+        <tr><td><label for="Email">Email</label></td>
+        <td><input type="email" name="Email" id="Email" required></td>
+       </tr>
+        <tr>
+        <td><label for="Date">Date</label></td>
+        <td><input type="date" name="date" id="date" required></td>
+        </tr>
+        <tr>
+        <td><label for="Contactno">Contact Number</label></td>
+        <td><input type="tel" name="contactNumber" id="contactNumber" pattern="" required></td>
+    </tr>
+       <tr align="center">
+          <td colspan="2"><input type="submit" value="submit"></td>
+       </tr> 
+        </table>
+    </form>
+
+</body>
+</html>
